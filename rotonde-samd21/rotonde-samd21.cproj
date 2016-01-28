@@ -13,7 +13,7 @@
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <AssemblyName>Rotonde SAM-D21 V0.7</AssemblyName>
-    <Name>Rotonde SAM-D21 V0.7</Name>
+    <Name>rotonde-samd21</Name>
     <RootNamespace>Rotonde SAM-D21 V0.7</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
