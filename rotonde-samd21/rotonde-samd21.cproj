@@ -5,7 +5,7 @@
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.ARMGCC.C</ToolchainName>
     <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
-    <avrdevice>ATSAMD21J18A</avrdevice>
+    <avrdevice>ATSAMD21G18A</avrdevice>
     <avrdeviceseries>samd21</avrdeviceseries>
     <OutputType>Executable</OutputType>
     <Language>C</Language>
@@ -271,9 +271,9 @@
         <board id="board.user_board.samd21g" value="Add" config="" content-id="Atmel.ASF" />
       </framework-data>
     </AsfFrameworkConfig>
-    <avrtool>com.atmel.avrdbg.tool.edbg</avrtool>
-    <avrtoolserialnumber>ATML2130021800003533</avrtoolserialnumber>
-    <avrdeviceexpectedsignature>0x10010000</avrdeviceexpectedsignature>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtoolserialnumber>J41800041724</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x10010005</avrdeviceexpectedsignature>
     <avrtoolinterface>SWD</avrtoolinterface>
     <com_atmel_avrdbg_tool_edbg>
       <ToolOptions>
@@ -295,7 +295,7 @@
         <InterfaceName>SWD</InterfaceName>
       </ToolOptions>
       <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
-      <ToolNumber>J41800025308</ToolNumber>
+      <ToolNumber>J41800041724</ToolNumber>
       <ToolName>Atmel-ICE</ToolName>
     </com_atmel_avrdbg_tool_atmelice>
   </PropertyGroup>
@@ -677,22 +677,16 @@
     <Compile Include="src\config\conf_rotonde.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="src\HAL\digital_pins.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\HAL\digital_pins.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\HAL\usb.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\HAL\usb.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\modules\modules\pingpong.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\modules\modules\pingpong.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\modules\modules\template.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\modules\modules\template.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\modules\modules_init.c">
