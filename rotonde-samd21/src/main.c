@@ -5,10 +5,6 @@
 #include "tasks/modules.h"
 #include "tasks/stream.h"
 
-void intar(void){
-	pin_toggle(PIN_PA21);
-}
-
 int main (void)
 {
 	irq_initialize_vectors();
