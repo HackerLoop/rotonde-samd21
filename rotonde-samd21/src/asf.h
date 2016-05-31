@@ -115,6 +115,9 @@
 #include <samd/sleepmgr.h>
 #include <sleepmgr.h>
 
+// From module: TCC - Timer Counter for Control Applications (Polled APIs)
+#include <tcc.h>
+
 // From module: USB - Universal Serial Bus
 #include <usb.h>
 

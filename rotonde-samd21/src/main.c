@@ -14,7 +14,7 @@ int main (void)
 	sleepmgr_init();
 	
 	HAL_usb_init();
-	
+
 	module_in = xQueueCreate(MODULE_QUEUE_LENGTH , MODULE_QUEUE_ITEM_SIZE);
 	module_out = xQueueCreate(MODULE_QUEUE_LENGTH , MODULE_QUEUE_ITEM_SIZE);
 	
